@@ -1,8 +1,10 @@
+@import './common';
+
 @import './utils/reset';
 @import './utils/visually-hidden';
 @import './utils/variables';
+@import './utils/base';
 
-@import './common';
 @import './example';
 @import './components/header';
 @import './components/hiro';

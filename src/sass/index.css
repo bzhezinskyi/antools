@@ -1,0 +1,126 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+body {
+  width: 1440px;
+  background-color: #1e252b;
+}
+
+.container {
+  margin-left: 108px;
+  margin-right: 108px;
+}
+
+.example {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #2f2f37;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ff6b0a;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.logo {
+  display: flex;
+}
+.logo__icon {
+  width: 38px;
+  height: 38px;
+}
+.logo__txt {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.side-nav__list {
+  display: flex;
+}
+.side-nav__item:not(:last-child) {
+  margin-right: 10px;
+}
+.side-nav__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.login {
+  display: flex;
+}
+.login__btn {
+  padding: 12px 28px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fdf5ff;
+  background-color: #ff6e30;
+}
+.loginbtn--inv {
+  color: rgba(255, 255, 255, 0.78);
+  background-color: transparent;
+}/*# sourceMappingURL=index.css.map */

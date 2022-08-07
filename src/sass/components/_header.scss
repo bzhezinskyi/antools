@@ -1,0 +1,107 @@
+.header {
+  // header__container
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+  //   // header__logo
+  //   &__logo {
+  //   }
+  //   // header__nav
+  //   &__nav {
+  //   }
+  //   // header__login
+  //   &__login {
+  //   }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  // logo__icon
+  &__icon {
+    width: 38px;
+    height: 38px;
+    margin-right: 12px;
+  }
+  // logo__txt
+  &__txt {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5;
+
+    color: $txt-cl-90;
+  }
+}
+
+.side-nav {
+  // side-nav__list
+  &__list {
+    display: flex;
+  }
+  // side-nav__item
+  &__item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  // side-nav__link
+  &__link {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: $txt-cl-55;
+    &:hover,
+    &:focus {
+      color: $txt-cl;
+    }
+  }
+  //   side-nav__chevrone
+  &__chevrone {
+    width: 12px;
+    height: 12px;
+    fill: currentColor;
+  }
+}
+
+.login {
+  display: flex;
+  // login__btn
+  &__btn {
+    padding: 12px 28px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+
+    border: none;
+    border-radius: 8px;
+    color: $secondary-txt-cl;
+    background-color: $accent-cl;
+
+    &:hover,
+    &:focus {
+      color: $accent-cl;
+      background-color: $txt-cl;
+    }
+
+    &:not(:last-child) {
+      margin-right: 13px;
+    }
+  }
+  // login__btn--inv
+  &__btn--inv {
+    color: $txt-cl-78;
+    background-color: transparent;
+    &:hover,
+    &:focus {
+      color: $txt-cl;
+      background-color: $accent-cl;
+    }
+  }
+}
