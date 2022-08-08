@@ -1,0 +1,109 @@
+.hiro {
+  background-image: url(../images/hiro-bg.png);
+  background-repeat: no-repeat;
+  // hiro__container
+  &__container {
+    padding-top: 178px;
+  }
+  // hiro__titel
+  &__titel {
+    margin-bottom: 30px;
+
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 1.4;
+
+    color: $txt-cl-90;
+    // hiro__titel--orang
+    &--orang {
+      color: $accent-cl;
+    }
+  }
+  // hiro__txt
+  &__txt {
+    margin-bottom: 60px;
+
+    font-size: 18px;
+    line-height: 1.67;
+
+    color: $txt-cl-55;
+  }
+
+  // hero__form
+  .form {
+    margin-bottom: 110px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 500px;
+    padding: 8px 11px 8px 21px;
+
+    background-color: $secondary-bg-cl;
+    border-radius: 15px;
+    // form__icon
+    &__icon {
+      margin-right: 13px;
+      width: 24px;
+      height: 24px;
+      fill: $txt-cl-38;
+    }
+    // form__input
+    &__input {
+      width: 100%;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      color: $txt-cl;
+    }
+    // form__btn
+    &__btn {
+      padding: 12px 36px;
+      color: $txt-cl;
+      background: $accent-cl;
+      border-radius: 8px;
+      border: none;
+
+      transition: color $animations, background-color $animations;
+      &:hover,
+      &:focus {
+        color: $accent-cl;
+        background-color: $txt-cl;
+      }
+    }
+  }
+
+  // hiro__social-link
+  .social-link {
+    display: flex;
+    // social-link__item
+    &__item {
+      &:not(:last-child) {
+        margin-right: 8px;
+      }
+    }
+    // social-link__link
+    &__link {
+      display: inline-block;
+      padding: 11px;
+      border-radius: 8px;
+
+      color: $txt-cl-78;
+
+      transition: background-color $animations, color $animations;
+      &:hover,
+      &:focus {
+        color: $txt-cl;
+        background-color: $txt-cl-20;
+      }
+    }
+    // social-link__icon
+    &__icon {
+      width: 36px;
+      height: 36px;
+
+      fill: currentColor;
+    }
+  }
+}
