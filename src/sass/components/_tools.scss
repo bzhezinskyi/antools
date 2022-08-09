@@ -1,0 +1,125 @@
+.tools {
+  // tools__container
+  &__container {
+  }
+  // tools__titel
+  &__titel {
+  }
+  // tools__txt
+  &__txt {
+  }
+  // tools__list
+  &__list {
+  }
+  // tools__item
+  &__item {
+  }
+}
+
+//   tools__card
+.card {
+  padding: 33px;
+  // card__icon
+  &__icon {
+    width: 64px;
+    height: 64px;
+  }
+  // card__name
+  &__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+
+    color: $txt-cl-78;
+  }
+  // card__application
+  &__application {
+    font-size: 18px;
+    line-height: 1.5;
+
+    color: $subtitel-cl-55;
+  }
+  // card__txt
+  &__txt {
+    font-size: 16px;
+    line-height: 1.875;
+
+    color: $txt-cl-55;
+  }
+  // card__footer
+  &__footer {
+  }
+  // card__like
+  &__like {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+
+    background-color: transparent;
+    border: none;
+    color: $txt-cl-38;
+
+    transition: color $animations, background-color $animations,
+      box-shadow $animations;
+    &:hover,
+    &:focus {
+      color: $like-cl;
+      background-color: $secondary-bg-cl;
+      box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+    }
+  }
+  // card__icon-like
+  &__like-icon {
+    width: 25px;
+    height: 25px;
+
+    fill: currentColor;
+  }
+  // card__folder
+  &__folder {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+
+    background-color: transparent;
+    border: none;
+    color: $txt-cl-38;
+
+    transition: color $animations, background-color $animations,
+      box-shadow $animations;
+    &:hover,
+    &:focus {
+      color: $txt-cl;
+      background-color: $secondary-bg-cl;
+      box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+    }
+  }
+  // card__icon-folder
+  &__folder-icon {
+    width: 25px;
+    height: 25px;
+
+    fill: currentColor;
+  }
+  // card__btn
+  &__btn {
+    padding: 9px 35px;
+    border: none;
+    border-radius: 8px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+
+    background-color: transparent;
+    color: $txt-cl-55;
+
+    transition: color $animations, background-color $animations;
+
+    &:hover,
+    &:focus {
+      background-color: $accent-cl;
+      color: $txt-cl;
+    }
+  }
+}
