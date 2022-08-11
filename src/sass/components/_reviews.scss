@@ -1,0 +1,11 @@
+.reviews {
+  padding: 30px;
+}
+
+// .slick-next {
+//   background-color: tomato;
+// }
+.slick-prev::before,
+.slick-next::before {
+  color: inherit;
+}
